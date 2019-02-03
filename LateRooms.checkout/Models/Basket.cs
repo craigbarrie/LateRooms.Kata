@@ -45,17 +45,19 @@ namespace LateRooms.checkout.Models
 
 
         void calculateRowTotal(BasketItem basketItem) {
-
-            //TODO:
-
             //lookup part from catalogue
 
-            //calculate row based on current qty.
+            SKU sku = Data.StockCatalogue.Items.FirstOrDefault(item => item.SKUCode == basketItem.SKU);
 
-            throw new NotImplementedException();
-
+            if (sku.SpecialPrice != null)
+            {
+                var x = sku.SpecialPriceMultiplier / basketItem.Quantity; // gives us x lots at the special price
+                var y = sku.SpecialPriceMultiplier % basketItem.Quantity; // gives us y quantity at the regular price.
+                basketItem.RowTotal = (x * Convert.ToInt32(sku.SpecialPrice)) + (y * sku.UnitPrice);
+            }
+            else { 
+                basketItem.RowTotal = basketItem.Quantity * sku.UnitPrice; //no special offer.
+            }
         }
-
-
     }
 }

@@ -6,9 +6,9 @@ namespace LateRooms.checkout.Models
 
         public string SKUCode{ get; set; }
 
-        public decimal UnitPrice { get; set; }
+        public int UnitPrice { get; set; }
 
-        public decimal SpecialPrice { get; set; }
+        public int? SpecialPrice { get; set; }
 
         public int SpecialPriceMultiplier { get; set; }
 

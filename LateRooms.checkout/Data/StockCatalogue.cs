@@ -14,8 +14,8 @@ namespace LateRooms.checkout.Data
 
              new Models.SKU{ SKUCode="A", UnitPrice=50, SpecialPrice=130, SpecialPriceMultiplier=3},
              new Models.SKU{ SKUCode="B", UnitPrice=30, SpecialPrice=45, SpecialPriceMultiplier=2},
-             new Models.SKU{ SKUCode="C", UnitPrice=20},
-             new Models.SKU{ SKUCode="D", UnitPrice=15},};
+             new Models.SKU{ SKUCode="C", UnitPrice=20, SpecialPrice=null},
+             new Models.SKU{ SKUCode="D", UnitPrice=15, SpecialPrice = null},};
             }
         }
     }
