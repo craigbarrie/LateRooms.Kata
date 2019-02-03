@@ -22,9 +22,14 @@ namespace LateRooms.checkout.Models
 
         public int GetTotalPrice() {
 
-            //TODO:
-            throw new NotImplementedException();
-        
+            if (Items != null && Items.Count > 0) {
+
+                return  Items.Sum(item => item.RowTotal);
+            }
+            else {
+                return 0;
+            }
+
         }
 
 
@@ -39,14 +44,13 @@ namespace LateRooms.checkout.Models
                 Items.Add(basketItem);
             }
 
-            calculateRowTotal(basketItem);
+            CalculateRowTotal(basketItem);
 
         }
 
 
-        void calculateRowTotal(BasketItem basketItem) {
+        void CalculateRowTotal(BasketItem basketItem) {
             //lookup part from catalogue
-
             SKU sku = Data.StockCatalogue.Items.FirstOrDefault(item => item.SKUCode == basketItem.SKU);
 
             if (sku.SpecialPrice != null)
