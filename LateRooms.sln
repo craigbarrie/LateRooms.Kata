@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LateRooms.checkout", "LateRooms.checkout\LateRooms.checkout.csproj", "{F4097B53-095C-4A36-B76C-7B7D335B4915}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "checkout.tests", "checkout.tests\checkout.tests.csproj", "{AE6E9677-8A5C-43D2-9BD5-8EB1338F0601}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F4097B53-095C-4A36-B76C-7B7D335B4915}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4097B53-095C-4A36-B76C-7B7D335B4915}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4097B53-095C-4A36-B76C-7B7D335B4915}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4097B53-095C-4A36-B76C-7B7D335B4915}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE6E9677-8A5C-43D2-9BD5-8EB1338F0601}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE6E9677-8A5C-43D2-9BD5-8EB1338F0601}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE6E9677-8A5C-43D2-9BD5-8EB1338F0601}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE6E9677-8A5C-43D2-9BD5-8EB1338F0601}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
