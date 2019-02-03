@@ -3,10 +3,10 @@ using Xunit;
 
 namespace checkout.tests
 {
-    public class UnitTest1
+    public class BasketCase
     {
         [Fact]
-        public void Test1()
+        public void AddOneOfEachItem()
         {
 
         }
