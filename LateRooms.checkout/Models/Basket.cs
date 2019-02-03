@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace LateRooms.checkout.Models
 {
-    public class Basket
+    public class Basket : Interfaces.IBasket
     {
         public List<BasketItem> Items{get;set;}
 

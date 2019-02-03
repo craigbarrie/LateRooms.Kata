@@ -23,8 +23,7 @@ namespace checkout.tests
 
         [Fact]
         public void ComplexBasketPriceCheck() {
-
-
+        
             var b = new Basket();
             b.Scan("C");
             b.Scan("A");
