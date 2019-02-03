@@ -5,5 +5,6 @@ namespace LateRooms.checkout.Models
     {
         public string SKU { get; set; }
         public int Quantity { get; set; }
+        public int RowTotal { get; set; }
     }
 }

@@ -26,3 +26,6 @@
 /Users/craigbarrie/Projects/LateRooms.Kata/checkout.tests/obj/Debug/netcoreapp2.1/checkout.tests.AssemblyInfo.cs
 /Users/craigbarrie/Projects/LateRooms.Kata/checkout.tests/obj/Debug/netcoreapp2.1/checkout.tests.dll
 /Users/craigbarrie/Projects/LateRooms.Kata/checkout.tests/obj/Debug/netcoreapp2.1/checkout.tests.pdb
+/Users/craigbarrie/Projects/LateRooms.Kata/checkout.tests/bin/Debug/netcoreapp2.1/LateRooms.checkout.dll
+/Users/craigbarrie/Projects/LateRooms.Kata/checkout.tests/bin/Debug/netcoreapp2.1/LateRooms.checkout.pdb
+/Users/craigbarrie/Projects/LateRooms.Kata/checkout.tests/obj/Debug/netcoreapp2.1/checkout.tests.csproj.CopyComplete

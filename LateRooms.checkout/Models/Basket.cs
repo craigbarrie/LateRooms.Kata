@@ -8,7 +8,7 @@ namespace LateRooms.checkout.Models
     {
         public List<BasketItem> Items{get;set;}
 
-        Basket() {
+        public Basket() {
             InitBasket();
         }
 

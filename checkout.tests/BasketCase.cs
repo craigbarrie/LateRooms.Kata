@@ -1,5 +1,7 @@
 using System;
 using Xunit;
+using LateRooms.checkout.Data;
+using LateRooms.checkout.Models;
 
 namespace checkout.tests
 {
@@ -8,7 +10,13 @@ namespace checkout.tests
         [Fact]
         public void AddOneOfEachItem()
         {
+            var b = new Basket();
 
+            for (var i=0; i < StockCatalogue.Items.Count; i++) {
+                b.Scan(StockCatalogue.Items[i].SKUCode);
+            }
+
+            Assert.Equal(b.Items.Count, StockCatalogue.Items.Count);
         }
     }
 }
