@@ -12,3 +12,17 @@
 /Users/craigbarrie/Projects/laterooms/interview-katas/LateRooms/LateRooms.checkout/obj/Debug/netcoreapp2.1/LateRooms.checkout.RazorTargetAssemblyInfo.cache
 /Users/craigbarrie/Projects/laterooms/interview-katas/LateRooms/LateRooms.checkout/obj/Debug/netcoreapp2.1/LateRooms.checkout.dll
 /Users/craigbarrie/Projects/laterooms/interview-katas/LateRooms/LateRooms.checkout/obj/Debug/netcoreapp2.1/LateRooms.checkout.pdb
+/Users/craigbarrie/Projects/LateRooms.Kata/LateRooms.checkout/bin/Debug/netcoreapp2.1/LateRooms.checkout.deps.json
+/Users/craigbarrie/Projects/LateRooms.Kata/LateRooms.checkout/bin/Debug/netcoreapp2.1/LateRooms.checkout.runtimeconfig.json
+/Users/craigbarrie/Projects/LateRooms.Kata/LateRooms.checkout/bin/Debug/netcoreapp2.1/LateRooms.checkout.runtimeconfig.dev.json
+/Users/craigbarrie/Projects/LateRooms.Kata/LateRooms.checkout/bin/Debug/netcoreapp2.1/LateRooms.checkout.dll
+/Users/craigbarrie/Projects/LateRooms.Kata/LateRooms.checkout/bin/Debug/netcoreapp2.1/LateRooms.checkout.pdb
+/Users/craigbarrie/Projects/LateRooms.Kata/LateRooms.checkout/obj/Debug/netcoreapp2.1/LateRooms.checkout.csprojAssemblyReference.cache
+/Users/craigbarrie/Projects/LateRooms.Kata/LateRooms.checkout/obj/Debug/netcoreapp2.1/LateRooms.checkout.csproj.CoreCompileInputs.cache
+/Users/craigbarrie/Projects/LateRooms.Kata/LateRooms.checkout/obj/Debug/netcoreapp2.1/LateRooms.checkout.RazorAssemblyInfo.cache
+/Users/craigbarrie/Projects/LateRooms.Kata/LateRooms.checkout/obj/Debug/netcoreapp2.1/LateRooms.checkout.RazorAssemblyInfo.cs
+/Users/craigbarrie/Projects/LateRooms.Kata/LateRooms.checkout/obj/Debug/netcoreapp2.1/LateRooms.checkout.AssemblyInfoInputs.cache
+/Users/craigbarrie/Projects/LateRooms.Kata/LateRooms.checkout/obj/Debug/netcoreapp2.1/LateRooms.checkout.AssemblyInfo.cs
+/Users/craigbarrie/Projects/LateRooms.Kata/LateRooms.checkout/obj/Debug/netcoreapp2.1/LateRooms.checkout.RazorTargetAssemblyInfo.cache
+/Users/craigbarrie/Projects/LateRooms.Kata/LateRooms.checkout/obj/Debug/netcoreapp2.1/LateRooms.checkout.dll
+/Users/craigbarrie/Projects/LateRooms.Kata/LateRooms.checkout/obj/Debug/netcoreapp2.1/LateRooms.checkout.pdb

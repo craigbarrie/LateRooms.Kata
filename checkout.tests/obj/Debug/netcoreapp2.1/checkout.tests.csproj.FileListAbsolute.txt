@@ -12,3 +12,17 @@
 /Users/craigbarrie/Projects/laterooms/interview-katas/LateRooms/checkout.tests/obj/Debug/netcoreapp2.1/checkout.tests.AssemblyInfo.cs
 /Users/craigbarrie/Projects/laterooms/interview-katas/LateRooms/checkout.tests/obj/Debug/netcoreapp2.1/checkout.tests.dll
 /Users/craigbarrie/Projects/laterooms/interview-katas/LateRooms/checkout.tests/obj/Debug/netcoreapp2.1/checkout.tests.pdb
+/Users/craigbarrie/Projects/LateRooms.Kata/checkout.tests/bin/Debug/netcoreapp2.1/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+/Users/craigbarrie/Projects/LateRooms.Kata/checkout.tests/bin/Debug/netcoreapp2.1/xunit.runner.reporters.netcoreapp10.dll
+/Users/craigbarrie/Projects/LateRooms.Kata/checkout.tests/bin/Debug/netcoreapp2.1/xunit.runner.utility.netcoreapp10.dll
+/Users/craigbarrie/Projects/LateRooms.Kata/checkout.tests/bin/Debug/netcoreapp2.1/checkout.tests.deps.json
+/Users/craigbarrie/Projects/LateRooms.Kata/checkout.tests/bin/Debug/netcoreapp2.1/checkout.tests.runtimeconfig.json
+/Users/craigbarrie/Projects/LateRooms.Kata/checkout.tests/bin/Debug/netcoreapp2.1/checkout.tests.runtimeconfig.dev.json
+/Users/craigbarrie/Projects/LateRooms.Kata/checkout.tests/bin/Debug/netcoreapp2.1/checkout.tests.dll
+/Users/craigbarrie/Projects/LateRooms.Kata/checkout.tests/bin/Debug/netcoreapp2.1/checkout.tests.pdb
+/Users/craigbarrie/Projects/LateRooms.Kata/checkout.tests/obj/Debug/netcoreapp2.1/checkout.tests.csprojAssemblyReference.cache
+/Users/craigbarrie/Projects/LateRooms.Kata/checkout.tests/obj/Debug/netcoreapp2.1/checkout.tests.csproj.CoreCompileInputs.cache
+/Users/craigbarrie/Projects/LateRooms.Kata/checkout.tests/obj/Debug/netcoreapp2.1/checkout.tests.AssemblyInfoInputs.cache
+/Users/craigbarrie/Projects/LateRooms.Kata/checkout.tests/obj/Debug/netcoreapp2.1/checkout.tests.AssemblyInfo.cs
+/Users/craigbarrie/Projects/LateRooms.Kata/checkout.tests/obj/Debug/netcoreapp2.1/checkout.tests.dll
+/Users/craigbarrie/Projects/LateRooms.Kata/checkout.tests/obj/Debug/netcoreapp2.1/checkout.tests.pdb
