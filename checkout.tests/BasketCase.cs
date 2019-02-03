@@ -18,10 +18,17 @@ namespace checkout.tests
 
             Assert.Equal(b.Items.Count, StockCatalogue.Items.Count);
 
-
         }
 
 
+        [Fact]
+        public void SingleAInBasket() {
+
+            var b = new Basket();
+            b.Scan("A");
+
+            Assert.Equal(50, b.Items[0].RowTotal);
+        }
 
 
 

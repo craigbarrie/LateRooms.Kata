@@ -51,8 +51,8 @@ namespace LateRooms.checkout.Models
 
             if (sku.SpecialPrice != null)
             {
-                var x = sku.SpecialPriceMultiplier / basketItem.Quantity; // gives us x lots at the special price
-                var y = sku.SpecialPriceMultiplier % basketItem.Quantity; // gives us y quantity at the regular price.
+                var x = basketItem.Quantity / sku.SpecialPriceMultiplier;  // gives us x lots at the special price
+                var y = basketItem.Quantity % sku.SpecialPriceMultiplier; // gives us y quantity at the regular price.
                 basketItem.RowTotal = (x * Convert.ToInt32(sku.SpecialPrice)) + (y * sku.UnitPrice);
             }
             else { 
