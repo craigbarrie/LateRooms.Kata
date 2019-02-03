@@ -17,6 +17,37 @@ namespace checkout.tests
             }
 
             Assert.Equal(b.Items.Count, StockCatalogue.Items.Count);
+            Assert.Equal(115, b.GetTotalPrice());
+        }
+
+
+        [Fact]
+        public void ComplexBasketPriceCheck() {
+
+
+            var b = new Basket();
+            b.Scan("C");
+            b.Scan("A");
+            b.Scan("A");
+            b.Scan("B");
+            b.Scan("A");
+            b.Scan("B");
+            b.Scan("A");
+            b.Scan("D");
+            b.Scan("D");
+            b.Scan("D");
+            b.Scan("A");
+
+
+            //A: 5 =  (3 @ 130) + (2 @ 50) = 130 + 100 == 230
+            //B: 2 =  (2 @ 45)                         ==  45
+            //C: 1 =  (1 @ 20)                         ==  20
+            //D: 3 =  (3 @ 15)                         ==  45
+
+            //expected basket total                    == 340
+
+            Assert.Equal(340, b.GetTotalPrice());
+
 
         }
 
@@ -61,10 +92,10 @@ namespace checkout.tests
             //eg, 130 + 50
 
             var b = new Basket();
-            b.Scan("A");
-            b.Scan("A");
-            b.Scan("A");
-            b.Scan("A");
+            for (var i = 0; i < 4; i++)
+            {
+                b.Scan("A");
+            }
 
             Assert.Equal(180, b.Items[0].RowTotal);
         }
@@ -76,12 +107,10 @@ namespace checkout.tests
             //eg, 45 * 3 = 135
 
             var b = new Basket();
-            b.Scan("B");
-            b.Scan("B");
-            b.Scan("B");
-            b.Scan("B");
-            b.Scan("B");
-            b.Scan("B");
+            for (var i = 0; i < 6; i++)
+            {
+                b.Scan("B");
+            }
             Assert.Equal(135, b.Items[0].RowTotal);
         }
 
