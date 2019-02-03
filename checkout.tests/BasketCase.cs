@@ -17,6 +17,14 @@ namespace checkout.tests
             }
 
             Assert.Equal(b.Items.Count, StockCatalogue.Items.Count);
+
+
         }
+
+
+
+
+
+
     }
 }

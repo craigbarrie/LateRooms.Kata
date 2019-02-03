@@ -29,14 +29,30 @@ namespace LateRooms.checkout.Models
 
 
         void AddItemToBasket(string sku) {
-            var exists = Items.FirstOrDefault(i => i.SKU == sku);
+            BasketItem basketItem =  Items.FirstOrDefault(i => i.SKU == sku);
 
-            if (exists != null) {
-                exists.Quantity += 1;
+            if (basketItem != null) {
+                basketItem.Quantity += 1;
             }
             else {
-                Items.Add(new BasketItem { SKU = sku, Quantity = 1 });
+                basketItem = new BasketItem { SKU = sku, Quantity = 1 };
+                Items.Add(basketItem);
             }
+
+            calculateRowTotal(basketItem);
+
+        }
+
+
+        void calculateRowTotal(BasketItem basketItem) {
+
+            //TODO:
+
+            //lookup part from catalogue
+
+            //calculate row based on current qty.
+
+            throw new NotImplementedException();
 
         }
 
