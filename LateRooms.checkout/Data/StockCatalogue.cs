@@ -9,11 +9,25 @@ namespace LateRooms.checkout.Data
     public class StockCatalogue
     {
 
-        public List<Models.SKU> Items { get; }
+        public List<Models.SKU> Items { get; private set; }
 
 
         public StockCatalogue()
         {
+            generateExampleData();
         }
+
+
+        void generateExampleData() {
+
+            Items = new List<Models.SKU> {
+
+             new Models.SKU{ SKUCode="A", UnitPrice=50, SpecialPrice=130, SpecialPriceMultiplier=3},
+             new Models.SKU{ SKUCode="B", UnitPrice=30, SpecialPrice=45, SpecialPriceMultiplier=2},
+             new Models.SKU{ SKUCode="C", UnitPrice=20},
+             new Models.SKU{ SKUCode="D", UnitPrice=15},
+             };
+        }
+
     }
 }
